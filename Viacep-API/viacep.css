@@ -1,0 +1,48 @@
+body{
+    background-image: url("https://viagemeturismo.abril.com.br/wp-content/uploads/2017/12/istock-842960000.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+        }
+input{
+    border-radius: 5px;
+    background: transparent;
+    box-shadow: 1px 3px 5px black;
+    text-align: center;
+    border: none;
+    padding: 5px;
+    outline: none;
+        }
+input::placeholder{
+    color: rgba(0, 0, 0, 0.925);
+        }
+button{
+    background: transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px black;
+    padding: 5px;
+    transition: background-color 1s;
+        }
+.glass{
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px grey;
+    padding: 15px;
+        }
+#glass2{
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px grey;
+    padding: 15px;
+        }
+button:hover{
+    backdrop-filter: blur(0);
+    cursor: pointer;
+        }
