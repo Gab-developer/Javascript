@@ -1,0 +1,18 @@
+body{
+    display: flex;      
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+img{
+    width: 200px;
+}
+.main_div{
+    box-shadow: 1px 3px 5px gray;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+}
