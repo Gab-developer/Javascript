@@ -1,0 +1,87 @@
+/* body{
+    background-image: url("https://4kwallpapers.com/images/wallpapers/white-dog-mountains-lake-louise-clouds-pet-water-blue-5k-2880x1800-2432.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+} */
+
+
+body{
+    background-image: url("https://4kwallpapers.com/images/wallpapers/white-dog-mountains-lake-louise-clouds-pet-water-blue-5k-2880x1800-2432.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* mantém centralizado horizontalmente */
+    gap: 20px;
+
+    min-height: 100vh; /* permite crescer */
+    padding: 20px;
+}
+
+.glass{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    box-shadow: 1px 3px 5px black;
+    backdrop-filter: blur(15px);
+    flex-wrap: wrap;
+}
+
+button{
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 1px 3px 12px rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.712);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .dog_image{
+    width: 700px;
+    height: 650px;
+    gap: 10px;
+    border-radius: 50px;
+    box-shadow: 1px 3px 5px black;
+    backdrop-filter: blur(20px);
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.dog_image{
+    width: 700px;
+    min-height: 650px; /* opcional */
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    border-radius: 50px;
+    box-shadow: 1px 3px 5px black;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+}
+
+
+.dog_image img{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
