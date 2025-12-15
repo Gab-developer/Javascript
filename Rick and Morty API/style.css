@@ -1,0 +1,51 @@
+.glass{
+    box-shadow: 1px 3px 5px black;
+    border-radius: 20px;
+    width: 300px;
+    min-height: 200px;
+    padding: 1px;
+    gap: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.glass img{
+   border-radius: 50%; 
+ 
+}
+
+
+.main_div{
+    width: 100vw;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+button{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 5px gray;
+  transition: 
+        transform 0.1s ease,
+        box-shadow 0.1s ease;
+}
+
+button:active{
+    transform: scale(0.95);
+    box-shadow: 0px 1px 2px gray;
+}
